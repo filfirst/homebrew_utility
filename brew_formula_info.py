@@ -44,7 +44,7 @@ def get_all_kegonly_formula_info():
 
 def parse_argv(argv):
     parser = argparse.ArgumentParser()
-    parser.add_argument('-k', '--kegonly', help='List key-only formula info',
+    parser.add_argument('-k', '--kegonly', help='List keg-only formula info',
                         metavar='KEGONY', dest='kegonly')
     parser.add_argument('-e', '--exclude-kegonly',
                         help='List non-keg-only formula info',
